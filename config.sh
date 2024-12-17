@@ -1,0 +1,1 @@
+export GTest_DIR=/home/douliyang/local/GTEST/lib/cmake/GTest
