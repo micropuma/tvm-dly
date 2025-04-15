@@ -6846,6 +6846,7 @@ class GraphProto:
         fn = _function.Function(analysis.free_vars(body), body)
         return fn, {}
 
+    # 将一个ONNX模型转换成等级的Relay函数
     def from_onnx(self, graph, opset, get_output_expr=False):
         """Construct Relay expression from ONNX graph.
 
